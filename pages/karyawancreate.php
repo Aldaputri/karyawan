@@ -40,8 +40,19 @@
           </div>
           <div class="mb-3">
             <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
-            <input type="text" class="form-control" id="jenis_kelamin" name="jenis_kelamin">
-          </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" value="Laki-laki" name="jenis_kelamin" id="jenis_kelamin"checked>
+                  <label class="form-check-label" for="jenis_kelamin">
+                    Laki-laki
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" value="Perempuan" name="jenis_kelamin" id="jenis_kelamin">
+                  <label class="form-check-label" for="jenis_kelamin">
+                    Perempuan
+                  </label>
+              </div>
+            </div>
           <div class="mb-3">
             <label for="status_menikah" class="form-label">Status Menikah</label>
             <input type="text" class="form-control" id="status_menikah" name="status_menikah">
