@@ -23,7 +23,8 @@
             $statment->bindParam(3, $jenis_kelamin);
             $statment->bindParam(4, $status_menikah);
             $statment->execute();
-            
+
+            header("Location: ?page=karyawan");
           }
         ?>
       </div>
