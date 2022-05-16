@@ -32,16 +32,16 @@
         <form action="" method="post">
           <div class="mb-3">
             <label for="nik" class="form-label">Nomor Induk Karyawan</label>
-            <input type="text" class="form-control" id="nik" name="nik">
+            <input type="text" class="form-control" id="nik" name="nik" required>
           </div>
           <div class="mb-3">
             <label for="nama_karyawan" class="form-label">Nama karyawan</label>
-            <input type="text" class="form-control" id="nama_karyawan" name="nama_karyawan">
+            <input type="text" class="form-control" id="nama_karyawan" name="nama_karyawan" required>
           </div>
           <div class="mb-3">
             <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
               <div class="form-check">
-                  <input class="form-check-input" type="radio" value="Laki-laki" name="jenis_kelamin" id="jenis_kelamin"checked>
+                  <input class="form-check-input" type="radio" value="Laki-laki" name="jenis_kelamin" id="jenis_kelamin"required>
                   <label class="form-check-label" for="jenis_kelamin">
                     Laki-laki
                   </label>
@@ -55,8 +55,8 @@
             </div>
           <div class="mb-3">
             <label for="status_menikah" class="form-label">Status Menikah</label>
-            <select class="form-select" aria-label="Default select example" name="status_menikah">
-              <option selected>Pilih Status</option>
+            <select class="form-select" aria-label="Default select example" name="status_menikah" required>
+              <option value="" selected>Pilih Status</option>
               <option value="Belum Menikah">Belum Menikah</option>
               <option value="Menikah Anak 0">Menikah anak 0</option>
               <option value="Menikah Anak 1">Menikah anak 1</option>
